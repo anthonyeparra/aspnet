@@ -28,7 +28,6 @@ namespace Proyecto.Logica.Class
         {
             try
             {
-                int entero = 0;
                 DataSet dsConsulta = new DataSet();
                 sqlConnection = new SqlConnection(stConexion); //Aqui se crea la conexion
                 sqlConnection.Open();//Abrimos la conexion
